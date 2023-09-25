@@ -13,9 +13,9 @@
         <hero-section class=""></hero-section>
       </header>
       <main class="w-full ">
-        <WorkSection id="myWork" ref="myWork"></WorkSection>
+        <work-section id="myWork" ref="myWork"></work-section>
         <about-me-section id="aboutMe" ref="aboutMe"></about-me-section>
-        <SkillsSection id="mySkills" ref="mySkills"></SkillsSection>
+        <skills-section id="mySkills" ref="mySkills"></skills-section>
         <contact-section id="contact" ref="contact"></contact-section>
       </main>
       <Footer></Footer>

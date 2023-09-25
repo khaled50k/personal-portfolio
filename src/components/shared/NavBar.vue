@@ -1,6 +1,6 @@
 <template>
     <nav
-        class="fixed left-0 top-0 w-full z-10 bg-shade-5/90 h-max max-w-full rounded-none py-3 px-4 md:px-6 md:py-3 bg-opacity-70 backdrop-blur-lg backdrop-saturate-100">
+        class="fixed left-0 top-0 w-full z-10 bg-shade-5/70 h-max max-w-full rounded-none py-4 px-4 md:px-12 bg-opacity-70 backdrop-blur-lg backdrop-saturate-100">
         <div class="flex items-center justify-between w-full">
             <div class="flex justify-center items-center">
                 <a href="#">

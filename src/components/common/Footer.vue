@@ -1,5 +1,5 @@
 <template>
-    <footer class="relative  flex flex-col items-center justify-center px-[20px] md:px-[80px] pt-[160px]">
+    <footer class="relative  flex flex-col items-center justify-center px-[20px] md:px-[80px]">
         <div class="py-7 flex gap-4 items-center flex-wrap justify-center">
 
             <p class="text-shade-2 text-sm">Coded by <span class="text-accent-1">Khaled Abu Eriban</span> </p>
