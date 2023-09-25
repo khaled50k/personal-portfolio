@@ -4,18 +4,18 @@
         <div class="flex items-center justify-between w-full">
             <div class="flex justify-center items-center">
                 <a href="#">
-                    <code class="text-bold font-bold text-shade1 text-base">
-                                                                     <span>
-                                                                        {{ "</C>" }}
-                                                                     </span>     
-                                                                     <span class="text-accent-1 uppercase">
-                                                                        {{ "Khaled" }}
-                                                                     </span>     
-                                                                     <span>
+                    <h1 class="text-bold font-bold text-shade1 text-base">
+
+                                                                          Dev 
+                                                                    
+                                                                         <span class="text-accent-1 uppercase">
+                                                                            {{ " Khaled" }}
+                                                                         </span>     
+                                                                         <!-- <span>
                                                                         {{ "</Dev>" }}
-                                                                     </span>     
+                                                                     </span>      -->
      
-                                                                          </code>
+                                                                              </h1>
 
                 </a>
             </div>
