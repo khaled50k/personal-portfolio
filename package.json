@@ -1,0 +1,31 @@
+{
+  "name": "personal-portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "tsparticles": "^2.12.0",
+    "tsparticles-slim": "^2.12.0",
+    "vue": "^3.2.47",
+    "vue-draggable": "^2.0.6",
+    "vue-feather-icons": "^5.1.0",
+    "vue-typer": "^1.2.0",
+    "vue-typewriter-effect": "^1.0.1",
+    "vue-writer": "^1.2.0",
+    "vue3-moveable": "^0.26.2",
+    "vue3-particles": "^2.12.0",
+    "vuedraggable": "^2.24.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.30",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.3.2"
+  }
+}

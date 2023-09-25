@@ -1,0 +1,43 @@
+<template>
+    <section about-me class="relative  flex flex-col items-start justify-center px-[20px] md:px-[80px] pt-[140px]">
+        <div class="header">
+            <h2 class="text-shade1 text-13xl lg:text-29xl">About Me</h2>
+
+        </div>
+        <div class=" flex flex-col gap-10 md:gap-7 w-full ">
+            <div
+                class="flex  flex-col group lg:flex-row py-3 md:py-10   rounded-lg  transition-all duration-300 ease-in-out">
+                <div class=" flex flex-col justify-between lg:pr-28 mb-12 lg:mb-0 ">
+                    <div class="flex flex-col  justify-between">
+                        <p class="text-shade1 text-lg lg:text-13xl leading-snug">With over 4 years of experience in digital
+                            product
+                            design, I'm passionate about creating engaging and functional solutions that meet users' needs.
+                            My focus on user research and usability ensures that each design not only looks great but also
+                            delivers an exceptional experience</p>
+                    </div>
+                </div>
+                <div class="flex flex-col w-full items-center  ">
+                    <div
+                        class="flex flex-col gap-3 items-center justify-center relative h-[200px] w-[200px]  lg:h-[227px] lg:w-[233px] ">
+
+                        <div
+                            class="rounded-3xl bg-gray border border-solid border-t-1 absolute -top-6 -right-4 border-shade-3 w-[212px] h-[212px] lg:w-[239px] lg:h-[239px] ">
+                        </div>
+                        <img class="w-full h-full rounded-3xl  absolute  right-4 max-w-[269px]  lg:max-w-[269px]"
+                            src="https://framerusercontent.com/images/qBCYhFYe1YYpnWa9HlqPUhRIy4.jpg?scale-down-to=512"
+                            alt="">
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+</template>
+
+<script setup>
+
+</script>
+
+<style></style>
