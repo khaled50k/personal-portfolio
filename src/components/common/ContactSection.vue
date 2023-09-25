@@ -12,11 +12,8 @@
                 <div class=" flex flex-col  justify-center items-center gap-10 ">
                     <div class="flex flex-col items-center text-center  lg:mx-[84px] gap-5">
                         <h2 class="text-shade1 text-13xl lg:text-29xl">Let's Talk!</h2>
-                        <p class=" text-base md:text-lg text-shade-2 mx-2 md:mx-20 leading-normal	">I'm a passionate
-                            Product Designer
-                            focused on
-                            Interested in working together or have a question? Feel free to reach out. I'm here to help you
-                            turn your ideas into amazing digital realities. Looking forward to hearing from you soon!</p>
+                        <p class=" text-base md:text-lg text-shade-2 mx-2 md:mx-20 leading-normal">If you'd like to collaborate on a project or have any questions related to web development, feel free to reach out. I'm here to discuss ideas, share insights, and help bring your digital projects to life. Looking forward to hearing from you soon!</p>
+
 
                     </div>
                     <div class="flex  items-center text-center  gap-2 flex-wrap justify-center">

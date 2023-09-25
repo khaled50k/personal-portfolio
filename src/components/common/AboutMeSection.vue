@@ -9,11 +9,8 @@
                 class="flex  flex-col group lg:flex-row py-3 md:py-10   rounded-lg  transition-all duration-300 ease-in-out">
                 <div class=" flex flex-col justify-between lg:pr-28 mb-12 lg:mb-0 ">
                     <div class="flex flex-col  justify-between">
-                        <p class="text-shade1 text-lg lg:text-13xl leading-snug">With over 4 years of experience in digital
-                            product
-                            design, I'm passionate about creating engaging and functional solutions that meet users' needs.
-                            My focus on user research and usability ensures that each design not only looks great but also
-                            delivers an exceptional experience</p>
+                        <p class="text-shade1 text-lg lg:text-13xl leading-snug">I'm a full-stack developer with a passion for creating web applications that are both functional and user-friendly. With expertise in Vue.js, Node.js, React.js, Tailwind CSS, and Vite, I've spent over 2 years honing my development skills. My focus on crafting efficient and reliable solutions ensures that every project I work on delivers an exceptional experience for users.</p>
+
                     </div>
                 </div>
                 <div class="flex flex-col w-full items-center  ">
