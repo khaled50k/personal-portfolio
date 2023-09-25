@@ -5,17 +5,13 @@
             <div class="flex justify-center items-center">
                 <a href="#">
                     <h1 class="text-bold font-bold text-shade1 text-base">
+                        Dev
 
-                                                                          Dev 
-                                                                    
-                                                                         <span class="text-accent-1 uppercase">
-                                                                            {{ " Khaled" }}
-                                                                         </span>     
-                                                                         <!-- <span>
-                                                                        {{ "</Dev>" }}
-                                                                     </span>      -->
-     
-                                                                              </h1>
+                        <span class="text-accent-1 uppercase">
+                            {{ " Khaled" }}
+                        </span>
+
+                    </h1>
 
                 </a>
             </div>
@@ -62,9 +58,7 @@
   
 <script setup>
 import { ref } from "vue";
-import { MenuIcon, ChevronDownIcon } from "vue-feather-icons";
 import NavItem from "../reusable/NavItem.vue";
-
 
 const isMobileMenuOpen = ref(false);
 

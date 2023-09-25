@@ -1,5 +1,6 @@
 <template>
   <div class="relative  ">
+    <!-- floating mask -->
     <div class="absolute top-0 left-0  inset-0 flex items-center justify-center z-50 pointer-events-none">
       <div
         style="width:100%;height:100%;background-size:160px;background-repeat:repeat;background-image:url('https://framerusercontent.com/images/rR6HYXBrMmX4cRpXfXUOvpvpB0.png');opacity:0.04;border-radius:0">
