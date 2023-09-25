@@ -5,17 +5,17 @@
             <div class="flex justify-center items-center">
                 <a href="#">
                     <code class="text-bold font-bold text-shade1 text-base">
-                                                             <span>
-                                                                {{ "</C>" }}
-                                                             </span>     
-                                                             <span class="text-accent-1 uppercase">
-                                                                {{ "Khaled" }}
-                                                             </span>     
-                                                             <span>
-                                                                {{ "</Dev>" }}
-                                                             </span>     
+                                                                     <span>
+                                                                        {{ "</C>" }}
+                                                                     </span>     
+                                                                     <span class="text-accent-1 uppercase">
+                                                                        {{ "Khaled" }}
+                                                                     </span>     
+                                                                     <span>
+                                                                        {{ "</Dev>" }}
+                                                                     </span>     
      
-                                                                  </code>
+                                                                          </code>
 
                 </a>
             </div>
@@ -45,21 +45,12 @@
                 </li>
             </ul>
 
-            <!-- <div class="hidden md:flex items-center justify-end gap-4">
-                <Button type="basic" size="lg" @click="handleButtonClick('Log in')">
-                    Log in
-                </Button>
-
-                <Button size="lg" type="primary" @click="handleButtonClick('Get started')">
-                    Get started
-                </Button>
-            </div> -->
         </div>
         <!-- mobile menu -->
         <div class="transition-max-height transition-all duration-700 overflow-hidden md:hidden"
             :class="{ 'max-h-screen': isMobileMenuOpen, 'max-h-0': !isMobileMenuOpen }">
             <ul class="flex flex-col gap-4 p-4">
-                <li v-for="(item, index) in navLinks" :key="item.name">
+                <li v-for="item in navLinks" :key="item.name">
                     <nav-item :href="item.href" mobile>
                         {{ item.name }}
                     </nav-item>
@@ -85,41 +76,27 @@ const shouldAddPrimary = (index) => {
 };
 const navLinks = [
     {
-        name: "Product",
-        description:
-            "Get a better understanding of where your traffic is coming from.",
-        href: "#",
+        name: "My work",
+        href: "#myWork",
 
     },
     {
-        name: "Pricing",
-        description: "Speak directly to your customers in a more meaningful way.",
-        href: "#",
+        name: "About me",
+        href: "#aboutMe",
 
     },
     {
-        name: "Company",
-        description: "Your customers' data will be safe and secure.",
-        href: "#",
-
-    },
-    {
-        name: "Resources",
-        description: "Connect with third-party tools that you're already using.",
-        href: "#",
+        name: "My Skills",
+        href: "#mySkills",
 
     },
     {
         name: "Contact",
-        description:
-            "Build strategic funnels that will drive your customers to convert",
-        href: "#",
+        href: "#contact",
     },
 ];
 
-const handleButtonClick = (text) => {
-    console.log(text + " Button clicked");
-};
+
 </script>
   
 <style>

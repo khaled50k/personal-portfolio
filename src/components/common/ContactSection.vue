@@ -1,5 +1,5 @@
 <template>
-    <section about-me class="relative  flex flex-col items-start justify-center px-[20px] md:px-[80px] pt-[160px]">
+    <section about-me class="relative  flex flex-col items-start justify-center px-[20px] md:px-[80px] py-[90px]">
 
         <div class=" flex flex-col gap-10 md:gap-7 w-full bg-shade-4 p-8 rounded-2xl overflow-hidden relative">
             <div

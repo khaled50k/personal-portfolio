@@ -12,11 +12,11 @@
         <NavBar></NavBar>
         <hero-section class=""></hero-section>
       </header>
-      <main class="mt-16 md:mt-40 w-full ">
-        <WorkSection></WorkSection>
-        <about-me-section></about-me-section>
-        <SkillsSection></SkillsSection>
-        <contact-section></contact-section>
+      <main class="w-full ">
+        <WorkSection id="myWork" ref="myWork"></WorkSection>
+        <about-me-section id="aboutMe" ref="aboutMe"></about-me-section>
+        <SkillsSection id="mySkills" ref="mySkills"></SkillsSection>
+        <contact-section id="contact" ref="contact"></contact-section>
       </main>
       <Footer></Footer>
     </div>

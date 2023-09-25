@@ -1,5 +1,5 @@
 <template>
-    <section about-me class="relative  flex flex-col items-start justify-center px-[20px] md:px-[80px] pt-[140px]">
+    <section about-me class="relative  flex flex-col items-start justify-center px-[20px] md:px-[80px] py-[90px]">
         <div class="header">
             <h2 class="text-shade1 text-1xl lg:text-13xl">My Skills</h2>
 

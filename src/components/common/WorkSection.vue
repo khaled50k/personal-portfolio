@@ -1,5 +1,5 @@
 <template>
-    <section books class="relative  flex flex-col items-start justify-center px-[20px] md:px-[80px] ">
+    <section books class="relative  flex flex-col items-start justify-center px-[20px] md:px-[80px] pt-[80px] pb-[90px] ">
         <div class="header">
             <h2 class="text-shade1 text-13xl lg:text-29xl">My work</h2>
             <p class="mt-4 text-base lg:text-lg  text-shade-2 md:max-w-[750px] ">Here's a glimpse of some of my recent and
