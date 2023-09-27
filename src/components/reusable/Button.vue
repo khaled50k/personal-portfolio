@@ -1,7 +1,7 @@
 <template>
-    <button :class="buttonClass" @click="handleClick" class="px-6 py-3 max-w-fit font-bold text-base cursor-pointer  transition-all duration-300 ease-in-out rounded-lg">
+    <a :href="href" target="_blank" :class="buttonClass" @click="handleClick" class="px-6 py-3 max-w-fit font-bold text-base cursor-pointer  transition-all duration-300 ease-in-out rounded-lg">
         <slot></slot>
-    </button>
+    </a>
 </template>
   
 <script setup>
@@ -10,7 +10,8 @@ import { ref, computed } from 'vue';
 // Props
 const props = defineProps({
     primary: Boolean, // Example prop: Indicates if it's a primary button
-    disabled: Boolean, // Example prop: Indicates if the button is disabled
+    disabled: Boolean,
+    href:String // Example prop: Indicates if the button is disabled
 });
 
 // Computed property for dynamic button class

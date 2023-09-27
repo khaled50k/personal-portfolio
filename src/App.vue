@@ -1,5 +1,10 @@
 <template>
-  <div class="relative  ">
+  <div  v-if="isLoading" class="flex items-center justify-center w-full h-[100vh] flex-col">
+
+    <Loading />
+  </div>
+
+  <div class="relative  " v-else>
     <!-- floating mask -->
     <div class="absolute top-0 left-0  inset-0 flex items-center justify-center z-50 pointer-events-none">
       <div
@@ -9,6 +14,7 @@
     </div>
     <!-- Your content goes here -->
     <div class=" z-10 ">
+      <ScrollToTop />
       <header class="md:min-h-[100vh] w-full ">
         <NavBar></NavBar>
         <hero-section class=""></hero-section>
@@ -25,14 +31,24 @@
 </template>
 
 <script setup>
+import { ref } from 'vue';
 import AboutMeSection from './components/common/AboutMeSection.vue';
 import ContactSection from './components/common/ContactSection.vue';
 import Footer from './components/common/Footer.vue';
 import HeroSection from './components/common/HeroSection.vue';
 import SkillsSection from './components/common/SkillsSection.vue';
 import WorkSection from './components/common/WorkSection.vue';
+import Loading from './components/shared/Loading.vue';
 import NavBar from './components/shared/NavBar.vue';
+import ScrollToTop from './components/shared/ScrollToTop.vue';
 
+// Define a reactive variable for isLoading
+const isLoading = ref(true);
+
+// Add an event listener to wait for all resources to load
+window.addEventListener('load', () => {
+  isLoading.value = false; // Set isLoading to false when all resources are loaded
+});
 </script>
 
 <style></style>
