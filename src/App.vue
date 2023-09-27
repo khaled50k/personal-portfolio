@@ -31,7 +31,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref,onMounted  } from 'vue';
 import AboutMeSection from './components/common/AboutMeSection.vue';
 import ContactSection from './components/common/ContactSection.vue';
 import Footer from './components/common/Footer.vue';
@@ -45,9 +45,9 @@ import ScrollToTop from './components/shared/ScrollToTop.vue';
 // Define a reactive variable for isLoading
 const isLoading = ref(true);
 
-// Add an event listener to wait for all resources to load
-window.addEventListener('load', () => {
-  isLoading.value = false; // Set isLoading to false when all resources are loaded
+// Use the mounted lifecycle hook to set isLoading to false after the component is mounted
+onMounted(() => {
+  isLoading.value = false;
 });
 </script>
 
