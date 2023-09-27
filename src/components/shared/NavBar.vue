@@ -7,7 +7,7 @@
                     <h1 class="text-bold font-bold text-shade1 text-base">
                         Dev
 
-                        <span class="text-accent-1 uppercase">
+                        <span class="text-accent-1">
                             {{ " Khaled" }}
                         </span>
 
