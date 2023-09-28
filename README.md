@@ -1,7 +1,42 @@
-# Vue 3 + Vite
+# Personal Portfolio
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Welcome to my personal portfolio! This web application showcases my skills, projects, and experiences as a full-stack developer. Built using modern web technologies, including Vite, Vue.js, and Tailwind CSS, this portfolio reflects my dedication to creating elegant and user-friendly web applications.
 
-## Recommended IDE Setup
+## Features
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- **Responsive Design:** My portfolio is designed to work seamlessly on various devices, ensuring an optimal user experience.
+- **Project Showcase:** Explore my recent projects, including web applications, websites, and more.
+- **About Me:** Learn more about my background, skills, and passion for web development.
+- **Skills:** Discover the technologies and frameworks I specialize in, such as Vue.js, Node.js, React.js, and more.
+- **Contact:** Reach out to me for inquiries, collaborations, or just to say hello!
+
+## Technologies Used
+
+- **Vite:** A fast, modern build tool for web development.
+- **Vue.js:** A progressive JavaScript framework for building user interfaces.
+- **Tailwind CSS:** A utility-first CSS framework for creating responsive and customizable designs.
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Install project dependencies using your preferred package manager.
+3. Run the development server to start the application.
+
+```bash
+# Clone the repository
+git clone https://github.com/khaled50k/personal-portfolio.git
+
+# Navigate to the project directory
+cd personal-portfolio
+
+# Install dependencies (using npm or yarn)
+npm install
+# or
+yarn install
+
+# Start the development server
+npm run dev
+# or
+yarn dev
