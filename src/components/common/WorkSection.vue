@@ -1,6 +1,6 @@
 <template>
-  <section books class="relative  flex flex-col items-start justify-center px-[20px] md:px-[80px] pt-[80px] pb-[90px] ">
-    <div class="header">
+  <section  books class="relative  flex flex-col items-start justify-center px-[20px] md:px-[80px] pt-[80px] pb-[90px] ">
+    <div class="header" data-aos="fade-right" >
       <h2 class="text-shade1 text-13xl lg:text-29xl">My work</h2>
       <p class="mt-4 text-base lg:text-lg  text-shade-2 md:max-w-[750px]">Here's a glimpse of some of my recent and exciting full-stack projects. Each of them demonstrates my expertise in both front-end and back-end development, showcasing my dedication to creating seamless user experiences and robust web applications.</p>
 
@@ -20,7 +20,18 @@
 import Project from '../reusable/Project.vue';
 import axios from 'axios';
 import { ref, onMounted } from 'vue';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import AOS styles
 
+const initializeAOS = () => {
+  AOS.init({
+    // Specify your AOS configuration options here
+  });
+};
+
+onMounted(() => {
+  initializeAOS(); // Initialize AOS when the component is mounted
+});
 // const githubRepos = ref([]);
 const githubRepos = ref([{
   "id": 689256191,

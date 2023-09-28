@@ -1,19 +1,19 @@
 <template>
-    <section about-me class="relative  flex flex-col items-start justify-center px-[20px] md:px-[80px] py-[90px]">
-        <div class="header">
+    <section data-aos="fade-up" about-me class="relative  flex flex-col items-start justify-center px-[20px] md:px-[80px] py-[90px]">
+        <div class="header" >
             <h2 class="text-shade1 text-13xl lg:text-29xl">About Me</h2>
 
         </div>
-        <div class=" flex flex-col gap-10 md:gap-7 w-full ">
+        <div class=" flex flex-col gap-10 md:gap-7 w-full " >
             <div
-                class="flex  flex-col group lg:flex-row py-3 md:py-10   rounded-lg  transition-all duration-300 ease-in-out">
+                class="flex  flex-col group lg:flex-row py-3 md:py-10   rounded-lg  transition-all duration-300 ease-in-out" >
                 <div class=" flex flex-col justify-between lg:pr-28 mb-12 lg:mb-0 ">
                     <div class="flex flex-col  justify-between">
                         <p class="text-shade1 text-lg lg:text-13xl leading-snug">I'm a full-stack developer with a passion for creating web applications that are both functional and user-friendly. With expertise in Vue.js, Node.js, React.js, Tailwind CSS, and Vite, I've spent over 2 years honing my development skills. My focus on crafting efficient and reliable solutions ensures that every project I work on delivers an exceptional experience for users.</p>
 
                     </div>
                 </div>
-                <div class="flex flex-col w-full items-center  ">
+                <div class="flex flex-col w-full items-center  " >
                     <div
                         class="flex flex-col gap-3 items-center justify-center relative h-[200px] w-[200px]  lg:h-[227px] lg:w-[233px] ">
 
@@ -34,6 +34,19 @@
 </template>
 
 <script setup>
+import { onMounted } from 'vue';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import AOS styles
+
+const initializeAOS = () => {
+  AOS.init({
+    // Specify your AOS configuration options here
+  });
+};
+
+onMounted(() => {
+  initializeAOS(); // Initialize AOS when the component is mounted
+});
 
 </script>
 

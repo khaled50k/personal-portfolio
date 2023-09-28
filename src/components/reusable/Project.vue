@@ -1,5 +1,5 @@
 <template>
-  <div
+  <div data-aos="fade-up"
     class="flex bg-shade-4 flex-col group lg:flex-row p-3 md:p-10 gap-4 rounded-lg border border-solid border-t-1 border-transparent hover:border-shade-3 transition-all duration-300 ease-in-out">
     <div class="flex-1 flex flex-col justify-between order-2 lg:order-1 gap-7 lg:gap-0">
       <div class="flex flex-col gap-4  justify-between">
@@ -25,7 +25,20 @@
 </template>
 
 <script setup>
+import { onMounted } from 'vue';
 import Button from './Button.vue';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import AOS styles
+
+const initializeAOS = () => {
+  AOS.init({
+    // Specify your AOS configuration options here
+  });
+};
+
+onMounted(() => {
+  initializeAOS(); // Initialize AOS when the component is mounted
+});
 
 
 const props = defineProps({

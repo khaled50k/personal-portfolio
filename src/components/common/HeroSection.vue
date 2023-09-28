@@ -1,8 +1,8 @@
 <template>
-  <div class="relative  flex flex-col items-center justify-center pt-20 md:pt-52 w-full">
+  <div data-aos="fade-down"  class="relative  flex flex-col items-center justify-center pt-20 md:pt-52 w-full">
 
     <div class="px-19 relative  ">
-      <div class="flex items-start justify-center w-full top-0" :style="{ transform: `translateY(${scrollY}px)` }">
+      <div class="flex items-start justify-center w-full top-0">
         <img src="https://media.graphassets.com/erJBZRFRZqNystv5OP6w" alt="" class="w-[300px]">
       </div>
       <!-- Content container (text content) -->
@@ -23,7 +23,18 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import AOS styles
 
+const initializeAOS = () => {
+  AOS.init({
+    // Specify your AOS configuration options here
+  });
+};
+
+onMounted(() => {
+  initializeAOS(); // Initialize AOS when the component is mounted
+});
 const scrollY = ref(0);
 
 // Function to handle scroll event

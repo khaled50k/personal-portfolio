@@ -17,7 +17,7 @@
       <ScrollToTop />
       <header class="md:min-h-[100vh] w-full ">
         <NavBar></NavBar>
-        <hero-section class=""></hero-section>
+        <hero-section class="" data-aos="zoom-in"></hero-section>
       </header>
       <main class="w-full ">
         <work-section id="myWork" ref="myWork"></work-section>
@@ -41,6 +41,18 @@ import WorkSection from './components/common/WorkSection.vue';
 import Loading from './components/shared/Loading.vue';
 import NavBar from './components/shared/NavBar.vue';
 import ScrollToTop from './components/shared/ScrollToTop.vue';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import AOS styles
+
+const initializeAOS = () => {
+  AOS.init({
+    // Specify your AOS configuration options here
+  });
+};
+
+onMounted(() => {
+  initializeAOS(); // Initialize AOS when the component is mounted
+});
 
 // Define a reactive variable for isLoading
 const isLoading = ref(true);

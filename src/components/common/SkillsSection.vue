@@ -1,5 +1,5 @@
 <template>
-    <section about-me class="relative  flex flex-col items-start justify-center px-[20px] md:px-[80px] py-[90px]">
+    <section data-aos="fade-up" about-me class="relative  flex flex-col items-start justify-center px-[20px] md:px-[80px] py-[90px]">
         <div class="header">
             <h2 class="text-shade1 text-1xl lg:text-13xl">My Skills</h2>
 
@@ -40,6 +40,19 @@
 
 <script setup>
 import SkillIcon from '../reusable/SkillIcon.vue';
+import { onMounted } from 'vue';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import AOS styles
+
+const initializeAOS = () => {
+  AOS.init({
+    // Specify your AOS configuration options here
+  });
+};
+
+onMounted(() => {
+  initializeAOS(); // Initialize AOS when the component is mounted
+});
 
 
 </script>
