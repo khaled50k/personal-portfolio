@@ -9,7 +9,7 @@
                 class="flex  flex-col group lg:flex-row py-3 md:py-10   rounded-lg  transition-all duration-300 ease-in-out" >
                 <div class=" flex flex-col justify-between lg:pr-28 mb-12 lg:mb-0 ">
                     <div class="flex flex-col  justify-between">
-                        <p class="text-shade1 text-lg lg:text-13xl leading-snug">I'm a full-stack developer with a passion for creating web applications that are both functional and user-friendly. With expertise in Vue.js, Node.js, React.js, Tailwind CSS, and Vite, I've spent over 2 years honing my development skills. My focus on crafting efficient and reliable solutions ensures that every project I work on delivers an exceptional experience for users.</p>
+                        <p class="text-shade1 text-lg lg:text-13xl leading-snug">I'm a full-stack developer passionate about creating user-friendly web applications. With expertise in Vue.js, Node.js, React.js, Tailwind CSS, and Vite, I have over 2 years of experience crafting efficient and reliable solutions for exceptional user experiences.</p>
 
                     </div>
                 </div>
