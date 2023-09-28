@@ -1,5 +1,5 @@
 <template>
-  <div  v-if="isLoading" class="flex items-center justify-center w-full h-[100vh] flex-col">
+  <div v-if="isLoading" class="flex items-center justify-center w-full h-[100vh] flex-col">
 
     <Loading />
   </div>
@@ -31,7 +31,7 @@
 </template>
 
 <script setup>
-import { ref,onMounted  } from 'vue';
+import { ref, onMounted } from 'vue';
 import AboutMeSection from './components/common/AboutMeSection.vue';
 import ContactSection from './components/common/ContactSection.vue';
 import Footer from './components/common/Footer.vue';
@@ -61,6 +61,9 @@ const isLoading = ref(true);
 onMounted(() => {
   isLoading.value = false;
 });
+
 </script>
 
-<style></style>
+
+
+
