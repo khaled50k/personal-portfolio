@@ -1,5 +1,5 @@
 <template>
-    <a :href="href" target="_blank" :class="buttonClass" @click="handleClick" class="px-6 py-3 max-w-fit font-bold text-base cursor-pointer  transition-all duration-300 ease-in-out rounded-lg">
+    <a :href="href" target="_blank" :class="buttonClass" @click="handleClick" class="px-6 py-3 max-w-fit font-bold text-base cursor-pointer  transition-all duration-300 ease-in-out rounded-lg text-center">
         <slot></slot>
     </a>
 </template>
