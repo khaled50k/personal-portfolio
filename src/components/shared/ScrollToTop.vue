@@ -53,7 +53,7 @@ onBeforeUnmount(() => {
 
 /* Bouncing animation with delay */
 .animate-bounce {
-  animation: bounce 1s infinite cubic-bezier(0.42, 0, 1, 1); /* Smoother easing */
+  animation: bounce 1.7s infinite cubic-bezier(0.42, 0, 1, 1); /* Smoother easing */
 }
 
 @keyframes bounce {
