@@ -3,7 +3,7 @@
 
     <div class="px-19 relative  ">
       <div class="flex items-start justify-center w-full top-0">
-        <img src="https://media.graphassets.com/erJBZRFRZqNystv5OP6w" alt="" class="w-[300px]">
+        <img src="https://media.graphassets.com/lozob4DvSjWFcB55oFTW" alt="" class="w-[300px]">
       </div>
       <!-- Content container (text content) -->
       <div class="relative flex items-center flex-col text-center px-[20px]">

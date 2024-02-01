@@ -21,7 +21,7 @@
                             class="rounded-3xl bg-gray border border-solid border-t-1 absolute -top-6 -right-4 border-shade-3 w-[212px] h-[212px] lg:w-[239px] lg:h-[239px] ">
                         </div>
                         <img class="w-full h-full rounded-3xl  absolute  right-4 max-w-[269px]  lg:max-w-[269px]"
-                            src="https://media.graphassets.com/fPSKanARQiaaD09z6WML"
+                            src="https://media.graphassets.com/fq6etNuQR2K86WAaBsbx"
                             alt="">
                     </div>
 
